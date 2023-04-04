@@ -1,0 +1,131 @@
+
+
+@font-face {
+    font-family: 'merriweatherregular';
+    src: url('https://cdn.glitch.global/5b5e7add-df13-4b80-80ba-90c00854f931/merriweather-regular-webfont.woff?v=1659672385662') format('woff');
+   
+
+}
+
+@font-face {
+    font-family: 'sansitabold_italic';
+    src: url('https://cdn.glitch.global/5b5e7add-df13-4b80-80ba-90c00854f931/sansita-bolditalic-webfont.woff?v=1659672417317') format('woff');
+  
+}
+* {
+    box-sizing: border-box;
+  }
+  
+  html {
+    font-family: 'merriweatherregular', serif;
+    font-size: 10px;
+  }
+  
+  body {
+    margin: 0 auto;
+    min-width: 1000px;
+    max-width: 1400px;
+  }
+  
+  /* Layout */
+  
+  section {
+    float: left;
+    width: 50%;
+  }
+  
+  aside {
+    float: left;
+    width: 30%;
+  }
+  
+  nav {
+    float: left;
+    width: 20%;
+  }
+  
+  footer {
+    clear: both;
+  }
+  
+  header, section, aside, nav, footer {
+    padding: 20px;
+  }
+  
+  /* header and footer */
+  
+  header, footer {
+    border-top: 5px solid #a66;
+    border-bottom: 5px solid #a66;
+  }
+  
+  /* WRITE YOUR CODE BELOW HERE */
+  h1, h2 {
+    font-family: 'sansitabold_italic', sans-serif;
+    letter-spacing: .1em;
+  }
+  
+  h1 {
+    font-size: 5.5rem;
+    text-align: center;
+  }
+  
+  h2 {
+    font-size: 3rem;
+  }
+  p, li {
+    font-size: 1.5rem;
+    line-height: 1.9;
+    letter-spacing: .1em;
+    word-spacing: .1em;
+  }
+  
+  aside ul, section ul 
+  {list-style-type: square;
+
+  }
+  
+    ol {
+        list-style-type: upper-latin;
+      }
+      nav ul li a {
+        background-color: #a661;
+        display: block;
+        border: .2rem solid #a66;
+        width: 100%;
+        text-decoration: none;
+        font-weight: bolder;
+        margin: .7rem 0;
+        padding: 3.4rem 0;
+        box-shadow: -0.3rem .3rem .5rem black;
+      }
+      
+nav ul {
+  list-style-type: none;
+  margin-top: 2.5rem;
+  padding: 0;
+}
+
+nav ul li {
+  text-align: center;
+}
+a:link, a:visited, a:focus, a:hover {
+  color: #a66;
+}
+
+a:focus, a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  color: crimson;
+}
+
+nav ul li a:focus, nav ul li a:hover {
+  background-color: #a66;
+  color: white;
+}
+
+nav ul li a:active {
+  color: yellow;
+}
